@@ -1,0 +1,13 @@
+form{
+color: white;
+}
+fieldset{
+    background-color: cornflowerblue;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    grap:10px;
+
+}
+div{
+    margin-bottom: 10px;}

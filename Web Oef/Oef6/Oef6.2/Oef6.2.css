@@ -1,0 +1,29 @@
+form{
+    background-color: beige;
+    width: 600px;
+    border: 1px solid;
+
+}
+label{
+    font-weight: bold;
+}
+.colom {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+div {
+    margin: 20px;
+}
+button{
+    width: 400px;
+    height: 40px;
+    font-size: larger;
+
+}
