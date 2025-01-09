@@ -1,0 +1,352 @@
+/*
+    naam:Oranoos Karimi
+*/
+
+/*
+Hint:
+    (1) Omzetten naar hoofdletters:
+            text-transform: uppercase;
+    (2) Schaduw in figcaption
+            text-shadow: 2px 2px 2px black;
+    (3) Eerste 3 lijnen tonen van de paragrafen
+            line-height:1em;
+	        height:3em;
+    (4) Herschaling van de figuren
+            aspect-ratio: 400 / 225;
+        s    object-fit:cover;
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1800px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+main {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+#article1{
+    width: 60%;
+}
+
+#figuure1 {
+    width: 300px;
+    float: left;
+    height: 425px;
+
+}
+
+#img1 {
+    width: 275px;
+    height: 425px;
+}
+article figure {
+    margin-bottom: 10px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+}
+
+article img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    aspect-ratio: 400 / 225;
+}
+
+figure figcaption {
+    position: absolute;
+    font-style: italic;
+    color: white;
+    font-size: 0.9em;
+    text-shadow: 2px 2px 2px black;
+    right: 10px;
+    bottom: 10px;
+}
+
+.article23 {
+    width: 39%;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.article23 p {
+    line-height:1em;
+    height:3em;
+    overflow: hidden;
+}
+
+.Nummer4tot6 {
+    width: 33%;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.Nummer4tot6 p {
+    line-height:1em;
+    height:3em;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+nav {
+    border: orange 2px solid;
+    position: fixed;
+    width: 250px;
+    top: 20px;
+    right: 20px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 1.4em;
+    z-index: 3;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    list-style: none;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+input {
+    width: 100px;
+    border-radius: 5px;
+}
+
+#li1 {
+    border: orange 2px solid;
+    background-color: orange;
+    text-transform: uppercase;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#titel {
+    color: white;
+}
+
+span {
+    display: none;
+}
+
+#zoek {
+    width: 20px;
+    margin-left: 5px;
+    vertical-align: bottom;
+}
+
+#natuur {
+    width: 20px;
+    right: 20px;
+}
+
+header {
+    border-bottom: 2px solid orange;
+    text-transform: uppercase;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 3em;
+}
+
+h2 {
+    border-left: 10px solid orange;
+    font-size: 2em;
+    padding-left: 0.5em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #FFA500;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+}
+
+@media (max-width: 1600px) {
+
+    main ,header {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    footer , nav img {
+        display: none;
+    }
+
+    nav {
+        position: static;
+        border: none;
+        margin: 0 auto;
+        width: 80%;
+
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+
+    }
+
+
+    #li1 {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        width: 290px;
+        height: 30px;
+        text-align: center;
+        padding: 0;
+    }
+
+
+    nav span {
+        display: inline;
+    }
+
+    .article23 {
+        width: 38.5%;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+
+    header , nav input , figure figcaption{
+        display: none;
+    }
+
+    figure img {
+        width: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+        aspect-ratio: 400 / 225;
+    }
+
+    #article1 {
+        width: 250px;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+
+    #figuure1 {
+        height: 120px;
+        float: none;
+        margin-bottom: 30px;
+    }
+
+    #p1 {
+        line-height:1em;
+        height:3em;
+        overflow: hidden;
+        margin-top: 0;
+        margin-left: 10px;
+    }
+
+    #nummer1 {
+        margin-left: 10px;
+    }
+
+    #img1 {
+        width: 240px;
+        height: 135px;
+        margin-right: 40px;
+    }
+
+
+    .Nummer4tot6 , .article23 {
+        width: 250px;
+    }
+
+    nav {
+        width: 70%;
+        margin-left:100px;
+        text-align: center;
+        border-bottom: 2px solid orange;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    #li1 {
+        width: 100%;
+    }
+
+    nav li {
+        display: block;
+    }
+
+    ul{
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 900px) {
+    main {
+        flex-direction: column;
+    }
+    article {
+        flex: 1 1 100%;
+        width: 100%;
+    }
+
+    .Nummer4tot6 , .article23 , #img1 ,#article1, figure img{
+        width: 100%;
+    }
+
+
+    .p26 ,#p1 {
+        display: none;
+    }
+}
+
+
+
+
+

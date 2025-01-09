@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- naam:Karimi Oranoos              -->
+<head>
+    <meta charset="UTF-8">
+    <title>Oef3</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/oef3.css">
+</head>
+<body>
+
+   <form action="waarneming.html" method="get" >
+       <h1>Mussen vs Vinken</h1>
+       <fieldset>
+           <legend>Algemeen</legend>
+
+               <label for='date'> Datum:</label>
+               <input type="date" id="date" name="date" value="datum" required >
+
+           <br><br>
+
+               <label for="tijd">Tijd:</label>
+               <select id="tijd" name="tijd" required>
+                   <option value="0_6">0u_6u</option>
+                   <option value="6_12">6u_12u</option>
+                   <option value="12_18">12u_18u</option>
+                   <option value="18_24">18u_24u</option>
+               </select>
+           <br><br>
+           <label for="neerslag">Neerslag:</label>
+           <input id="neerslag" type="radio" name="neerslag" value="geen" checked> Geen
+           <input  type="radio" name="neerslag" value="matig"> Matig
+           <input type="radio" name="neerslag" value="overvloedig"> Overvloedig
+       </fieldset>
+       <fieldset >
+           <legend >vogels</legend>
+               <div>
+                   <img src="assets/images/mus.png" >
+                   <label for="mussen">#Mussen:</label>
+                   <input type="number" value="0" min="0" max="10" id="mussen" name="mussen">
+                   <label for="zeker_mus">zeker:</label>
+                   <input type="range" id="zeker_mus" name="zekerheid_mus" min="0" max="100" value="50">
+               </div>
+
+           <br> <br>
+               <div>
+                   <img src="assets/images/vink.png">
+                   <label for="vinken">#Vinken:</label>
+                   <input type="number" value="0" min="0" max="10" id="vinken" name="vinken">
+                   <label for="zeker_vink">zeker:</label>
+                   <input type="range" id="zeker_vink" name="zekerheid_vink" min="0" max="100" value="50">
+               </div>
+
+
+       </fieldset>
+       <fieldset>
+           <legend>Acties</legend>
+           <button type='submit'>registreer</button>
+           <button type='submit'>maak leeg</button>
+       </fieldset>
+
+
+
+   </form>
+
+</body>
+</html>
