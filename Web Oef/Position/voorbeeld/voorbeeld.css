@@ -1,0 +1,17 @@
+section {
+    height: 300px;
+    width: 40%;
+    float: left;
+}
+#left {
+    background-color: darkred;
+}
+#right {
+    height: 200px;
+    width: 60%;
+    background-color: limegreen;
+}
+footer {
+    background-color: cadetblue;
+    clear: both;
+}

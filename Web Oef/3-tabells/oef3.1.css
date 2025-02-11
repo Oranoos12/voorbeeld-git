@@ -1,0 +1,21 @@
+tabel, td, th {
+    border: solid black;
+}
+table {
+    text-align: center;
+    font-family: roboto ;
+    border-collapse: collapse;
+}
+tbody tr:nth-child(even) {
+    background-color: #6facff;
+}
+tbody tr:nth-child(odd) {
+    background-color: #4f8cef;
+}
+th , td, caption {
+    font-family: roboto ;
+    color: white;
+}
+ thead, tfoot{
+    background-color: #27426d;
+}

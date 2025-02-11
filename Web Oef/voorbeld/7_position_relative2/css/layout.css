@@ -1,0 +1,21 @@
+span {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #999999;
+    font-size: 1.2em;
+}
+.hoger {
+    position: relative;
+    bottom: 10px;
+}
+.lager {
+    position: relative;
+    bottom: -10px;
+}
+.links{
+    position: relative;
+    left: -15px;
+}
+.rechts {
+    position: relative;
+    right: -15px;
+}

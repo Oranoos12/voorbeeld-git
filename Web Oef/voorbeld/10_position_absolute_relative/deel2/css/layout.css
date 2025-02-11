@@ -1,0 +1,25 @@
+body {
+    background-color: #00aaf1;
+}
+img {
+  width: 100%;
+}
+.news-item {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    max-height: 300px;
+    height: 300px;
+    border: 1px solid gray;
+    overflow: hidden;
+    background-color: grey;
+    padding: 0 15px;
+    position:relative;
+}
+.special{
+    background-color:red;
+    position:absolute;
+    right:0;
+    top:0;
+}
+

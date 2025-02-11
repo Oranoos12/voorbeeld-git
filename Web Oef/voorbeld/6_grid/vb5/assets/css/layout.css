@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-areas: 
+    "header header header"
+    "nav content sidebar"
+    "nav footer sidebar";
+  grid-template-columns: 1fr 5fr 1fr;
+  width: 1024px;
+  margin: auto;
+  gap: 5px;
+}
+
+.header {
+  grid-area: header;
+}
+.sidebar {
+  grid-area: sidebar;
+}
+.content {
+  grid-area: content;
+}
+.footer {
+  grid-area: footer;
+}
+.nav {
+    grid-area: nav;
+}
+.element {
+    border: 2px solid #f08c00;
+    background-color: #ffec99;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+nav ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+    margin: 10px;
+}
+

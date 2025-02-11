@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
+body {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.5;
+    padding: 1rem;
+}
+p {
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+img {
+    background-color: #f5bda6;
+    padding: .5rem;
+}
+#img1 {
+    /* float: right;
+    margin-left: 1rem;
+    margin-bottom: 1rem; */
+}
+#img2 {
+    /* float: left;
+    margin-right: 1rem;
+    margin-bottom: 1rem; */
+}

@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.container > * {
+    border: 2px solid #f08c00;
+    background-color: #ffec99;
+    border-radius: 5px;
+    padding: 10px;
+    margin:5px;
+}
+
+
+#box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+#box2 {
+  grid-column-start: 3;
+  grid-column-end: 5;  
+  grid-row-start: 3;
+  grid-row-end: 5;
+}

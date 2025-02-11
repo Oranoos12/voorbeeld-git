@@ -1,0 +1,22 @@
+/* naam: ... */ 
+form{
+    max-width: 320px;
+}
+
+#date,#lokaal{margin-left: 20px}
+.w2{display: flex;
+flex-direction: column;}
+textarea{height: 5em;}
+div{margin-left: 10px;}
+button{
+    margin-top: 10px;
+    width: 100%;
+}
+button:hover{
+    background-color: #6a7689;
+}
+.eerst{
+    display: flex;
+    flex-direction: row;
+}
+

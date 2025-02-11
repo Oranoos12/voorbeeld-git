@@ -1,0 +1,17 @@
+.box {
+    border: 1px solid black;
+}
+
+.box1 {
+	background-color: darkgrey;
+    width: 500px;
+    margin: 20px auto;
+}
+
+.box2 {
+	background-color: lightgrey;
+    width: 500px;
+    margin: 20px auto;
+    padding: 50px;
+    border-width: 10px;
+}

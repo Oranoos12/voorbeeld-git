@@ -1,0 +1,137 @@
+/* naam: ... */ 
+body{
+    width:1200px;
+    margin:auto;
+    display: flex;
+
+    flex-direction: row;
+
+}
+
+nav{
+    width:100%;
+    background-color:black;
+    height:80px;
+    color:white;
+    right: 0;
+    left: 0;
+    position: fixed;
+    z-index: 2;
+    margin-top: 0;
+
+
+}
+nav a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+footer{
+    width:100%;
+    background-color:black;
+    color:white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    z-index: 2;
+
+}
+
+img{width:100%; height:auto;}
+
+
+
+nav li {
+    align-items: flex-end;
+    text-decoration: none;
+    list-style: none;
+    font-size: x-large;
+}
+
+#pxlimg{
+    width: 90px;
+    margin-left: 50px;
+
+
+}
+div figure{
+
+    margin-bottom: 10px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+
+}
+figure figcaption {
+    position: absolute;
+    font-style: italic;
+    color: white;
+    font-size: 0.9em;
+    text-shadow: 2px 2px 2px black;
+    left: 50px;
+    top: 100px;
+
+}
+
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    color: white;
+
+
+}
+.div1{
+    display: flex;
+}
+.div2{
+    display: flex;
+    flex-flow: row wrap;
+    width: 50%;
+}
+
+.w1 { flex-grow: 1;
+    align-self:center;}
+.w5 { flex-grow: 7; }
+.w3 {
+    width: 90%;
+    flex: 0 0 calc(100% / 2 - 10px);
+
+}
+.foto4{
+
+    width: 44%;
+
+}
+main{margin-top: 150px;
+margin-bottom: 50px;}
+
+@media (max-width: 800px)  {
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+    article{display: none}
+    .div1{
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .div2{
+        display: flex;
+        flex-flow: column wrap;}
+
+
+    .w3,.foto4{margin:5px ;
+        width: 500px;}
+    li{margin-top: 10px;}
+    nav{height: 150px;}
+    #pxlimg{display: none;}
+
+
+
+}
+
+
+

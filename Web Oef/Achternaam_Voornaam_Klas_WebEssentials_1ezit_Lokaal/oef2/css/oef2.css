@@ -1,0 +1,33 @@
+/*  Naam: Oranoos Karimi
+*/
+table {
+    width: 700px;
+    text-align: center;
+    font-family: monospace;
+
+}
+ tr,td, th{
+     border: 1px solid black;
+
+ }
+
+h1{;
+    color: white;
+    font-size: xx-large;
+
+
+}
+
+thead tr:nth-child(even) {
+    background-color: lightslategray;
+}
+thead tr:nth-child(odd) {
+    background-color: grey;
+}
+tbody th:nth-child(even) {
+    background-color: grey;
+}
+tbody th:nth-child(odd) {
+    background-color: lightslategray;
+}
+h1{}

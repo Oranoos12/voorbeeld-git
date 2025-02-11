@@ -1,0 +1,24 @@
+#box1 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 200px;
+    border: 1px solid #000000;
+    background-color: #cccccc;
+}
+
+#box2 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 200px;
+    border: 1px solid #000000;
+    background-color: #dddddd;
+}
+
+#inhoud {
+    position: absolute;
+    top: 10px;
+    right: 220px;
+    left: 220px;
+}

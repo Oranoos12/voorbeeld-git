@@ -1,0 +1,25 @@
+aside {
+    position: absolute;
+    border: 2px solid #555555;
+    padding: 10px;
+    width: 200px;
+    min-height: 200px;
+}
+#box1 {
+    top: 10px;
+    left: 10px;
+    background-color: #999999;
+    z-index: 3;
+}
+#box2 {
+    top: 90px;
+    left: 90px;
+    background-color: #BBBBBB;
+    z-index: 2;
+}
+#box3 {
+    top: 170px;
+    left: 170px;
+    background-color: #EEEEEE;
+    z-index: 1;
+}

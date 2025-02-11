@@ -1,0 +1,61 @@
+/*  Naam: Oranoos Karimi
+*/
+form{
+    width: 600px;
+}
+.inline-element {
+    display: inline-block;
+    margin: 5px;
+    vertical-align: middle;
+}
+
+
+.w2 { width: calc(100% / 5 - 10px); }
+
+.w8 { width: calc(100%  / 2 - 10px); }
+
+
+
+input[type=submit]{
+    height:3em;
+}
+
+div{
+    width: 600px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+label{
+    margin-left: 50px;
+}
+
+input[type=submit]{
+    width: 500px;
+    border: black solid 2px;
+    margin-left: 50px;
+}
+textarea{
+    margin-left: 50px;
+    height: 5em;
+width: 500px;}
+.text{display: flex;
+    flex-direction: column;
+
+}
+input[type=email],input[type=date]{ width: 400px;
+margin-left: 50px;}
+input[type=range]{width: 400px;}
+.stra{margin-left: 50px;}
+.geluk{margin-left: 70px;}
+.com{margin-left: 20px}
+.start{margin-left: 60px;
+width: 130px;}
+.tijd{margin-left: 20px;
+    width: 130px;}
+
+h3{margin-left: 50px;}
+
+
+

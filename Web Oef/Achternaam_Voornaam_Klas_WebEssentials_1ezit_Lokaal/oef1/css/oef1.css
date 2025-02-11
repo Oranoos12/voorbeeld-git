@@ -1,0 +1,145 @@
+/*  Naam: 
+*/
+
+
+
+    tbody{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .logo{
+        width: 20px;
+        flex-grow: 1;
+        margin: 5px;
+    }
+    .centertext{text-align: center;
+        flex-grow: 8;}
+    span{flex-grow: 1;
+        border: black solid 2px;
+        border-radius: 5px;
+        margin: 5px;
+
+    }
+
+    header{
+        border-bottom: #6a7689 solid 4px;
+        border-top: #6a7689 solid 4px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        height: 80px;
+    }
+    nav{
+
+        width:100%;
+        border-bottom: #6a7689 solid 4px;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+    a{
+        text-decoration: none;
+        list-style: none;
+        color: black;
+        border: #6a7689 solid 2px;
+        border-radius: 5px;
+        margin: 5px;
+        text-align: center;
+        margin-right: 50px;
+
+    }
+    img{
+        border: #6a7689 solid 2px;
+        border-radius: 5px;
+        background-color: white;
+    }
+
+    footer{
+        width:100%;
+        background-color:#6a7689;
+        color:white;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        text-align: center;
+        z-index: 2;
+    }
+    div{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    div p{width: 200px;}
+
+    main{width: 100%}
+
+    div figure{
+       position: relative;
+        display: inline-block;
+        z-index: 1;  }
+     figure span {
+          position: absolute;
+          right: 2px;
+          top: 2px;
+          border: none;
+         color: white;
+     }
+
+     div article{
+         flex-grow: 4;
+     }
+
+
+
+
+@media (max-width: 1200px){
+    nav{display: flex;
+    flex-direction: row;
+    }
+    a{
+        width: 17%;
+    }
+    div{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: space-between;
+    }
+    div article{width: 400px;}
+
+
+}
+@media (max-width: 900px){
+    header, footer{display: none}
+    nav{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+
+        height: 150px;
+    }
+    a{
+        width: 100%;
+        height: 100%;
+        margin: 2px;
+    }
+    div{
+        flex-direction: column;
+        width: 100%;
+    }
+    div figure{
+        float: left;
+        width: 25%;
+
+    }
+    div p{width: 100%;}
+    div article{width: 100%;
+    margin-bottom:50px; }
+    div img{ width: 100%;}
+
+}
+
+

@@ -1,0 +1,12 @@
+#box2 {
+    position: relative;
+    top: 50px;
+    left: 75px;
+}
+
+aside{
+    width: 300px;
+    border: 1px solid #000000;
+    background-color: #dddddd;
+    opacity: 0.8;
+}

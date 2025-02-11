@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Oef3</title>
+    <link href="css/oef3.css" rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="utf-8">
+</head>
+<body>
+<form action="verwerk.html" method="post">
+
+
+        <div class="foto">
+
+            <div class="inline-element w8"><h3>Spel-sessie Wingspan</h3></div>
+            <div class="inline-element w2">
+                <img alt="boek" src="images/1.jpeg">
+            </div>
+
+        </div>
+    <div  class="d1">
+        <label for="date">Datum:</label>
+        <input type="date" value="datum" id="date" name="date" required>
+    </div>
+    <div>
+        <label for="start">Start: </label>
+        <input type="number" id="start" name="start"  min="1" max="23" required class="start">
+        <label for="tijd">Tijdsduur: </label>
+        <input type="number" id="tijd" name="tijdsduur" min="1" max="12" required class="tijd">
+    </div>
+    <div>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" pattern=".+@student.pxl.be" placeholder="nele.verbeek@student.pxl.be" required >
+    </div>
+    <div>
+        <label>Complexitetit</label>
+        <input type="range"  min="1" max="10" class="com">
+
+    </div>
+    <div>
+        <label>Geluk: </label>
+        <input type="range"  min="1" max="10" value="50" class="geluk">
+
+    </div>
+    <div >
+        <label >Strategie:</label>
+        <input type="range"  min="1" max="10" value="50" id="Strategie" class="stra">
+    </div>
+    <div></div>
+    <div >
+        <label>Aantal sterren: </label>
+        <input id="neerslag" type="radio" name="neerslag" value="geen" checked>&star;
+        <input  type="radio" name="neerslag" value="matig"> &star;&star;
+        <input type="radio" name="neerslag" value="overvloedig"> &star;&star;&star;
+        <input type="radio" name="neerslag" value="overvloedig"> &star;&star;&star;&star;
+    </div>
+    <div class="text">
+        <label for="opmerking">Beshrijven:</label>
+        <textarea name="opmerking" id="opmerking" placeholder="Great game!"> </textarea>
+    </div>
+    <div>
+        <input id="confirm-purchase" type="submit" value="Bewaar" >
+    </div>
+
+
+
+</form>
+
+</body>
+</html>
